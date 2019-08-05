@@ -1,4 +1,5 @@
 setlocal wrap
+setlocal nonumber
 setlocal spell spelllang=fr
 
 hi clear SpellBad
@@ -9,6 +10,11 @@ hi SpellBad   cterm=underline ctermfg=9  ctermbg=0
 hi SpellCap   cterm=underline ctermfg=14 ctermbg=0 
 hi SpellRare  cterm=underline ctermfg=13 ctermbg=0 
 hi SpellLocal cterm=underline ctermfg=11 ctermbg=0
+
+" hi JekyllHeader  ctermbg=10
+" hi JekyllTeaser  ctermbg=11
+" hi JekyllLatex   ctermbg=12
+" hi JekyllImage   ctermbg=13
 
 function! ToggleSpellCheck()
     set spell!
