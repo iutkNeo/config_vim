@@ -145,8 +145,8 @@ let g:ConqueGdb_ToggleBreak = g:ConqueGdb_Leader . 'b'
 " --- Plugin Nerdcommenter 
 " --------------
 
-nnoremap ² :call NERDComment(0,"toggle") <CR>
-vnoremap ² :call NERDComment(0,"toggle") <CR>
+nnoremap <S-Tab> :call NERDComment(0,"toggle") <CR>
+vnoremap <S-Tab> :call NERDComment(0,"toggle") <CR>
 
 let g:NERDDefaultAlign = 'left'                   " Place le commentaire à gauche et non pas en suivant l'indentation
 let g:NERDSpaceDelims = 2                         " Ajoute des espaces après le début du commentaire
